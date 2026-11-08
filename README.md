@@ -1,4 +1,4 @@
-﻿# RED4api - <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/31faefbb-c3a0-4d8c-84fd-c0d66b59a667" />
+﻿# RED4api - <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/31faefbb-c3a0-4d8c-84fd-c0d66b59a667" />
 
 
 Biblioteca em **C++** voltada a **aprendizado**, para construção de mods de *Cyberpunk 2077*.
