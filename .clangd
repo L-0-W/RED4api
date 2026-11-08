@@ -1,0 +1,18 @@
+CompileFlags:
+  CompilationDatabase: build-clangd
+  Add:
+    - -std=c++23
+    - -Iinclude
+
+Index:
+  Background: Build
+
+InlayHints:
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+
+Diagnostics:
+  # Umbrella headers (ex.: RED4api.hpp) são intencionais neste projeto.
+  UnusedIncludes: None
+  MissingIncludes: None

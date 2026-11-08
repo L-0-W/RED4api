@@ -1,0 +1,11 @@
+*.log
+*.zip
+*.dll
+*.exe
+.vscode/
+.vs/
+compile_commands.json
+build-clangd/
+
+downloads/
+staging/

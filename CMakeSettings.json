@@ -1,0 +1,65 @@
+{
+  "configurations": [
+    {
+      "name": "x64-Release",
+      "generator": "Visual Studio 18 2026 Win64",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\build",
+      "installRoot": "${projectDir}\\build\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Release",
+          "type": "STRING"
+        },
+        {
+          "name": "RED4API_BUILD_CLI",
+          "value": "ON",
+          "type": "BOOL"
+        },
+        {
+          "name": "RED4API_BUILD_TESTS",
+          "value": "ON",
+          "type": "BOOL"
+        }
+      ]
+    },
+    {
+      "name": "x64-Clangd-Ninja",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\build-clangd",
+      "installRoot": "${projectDir}\\build-clangd\\install\\${name}",
+      "cmakeCommandArgs": "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON",
+          "type": "BOOL"
+        },
+        {
+          "name": "RED4API_BUILD_CLI",
+          "value": "ON",
+          "type": "BOOL"
+        },
+        {
+          "name": "RED4API_BUILD_TESTS",
+          "value": "ON",
+          "type": "BOOL"
+        }
+      ]
+    }
+  ]
+}
