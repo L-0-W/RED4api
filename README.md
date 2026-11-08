@@ -1,7 +1,4 @@
-﻿Segue um `.md` pronto para colar no `README.md` (ou em outro doc). Estou em **Ask mode**, então não altero arquivos — se quiser que eu grave isso no repo, use Agent mode.
-
-```md
-# RED4api
+﻿# RED4api
 
 Biblioteca em **C++** voltada a **aprendizado**, para construção de mods de *Cyberpunk 2077*.
 
